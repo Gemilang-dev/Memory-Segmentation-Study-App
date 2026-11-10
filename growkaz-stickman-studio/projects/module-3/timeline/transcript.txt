@@ -1,0 +1,4 @@
+[00.09 -> 03.87] What happens when a running instruction is suddenly interrupted by a function or subroutine?
+[04.58 -> 06.23] That is the job of the Stack Segment.
+[06.95 -> 14.65] Whenever a subroutine is called, the program notes the exact memory address where it left off, and keeps that return address safe inside the stack while the subroutine runs.
+[15.37 -> 19.52] When the subroutine finishes, the program returns to the exact address stored in the stack.

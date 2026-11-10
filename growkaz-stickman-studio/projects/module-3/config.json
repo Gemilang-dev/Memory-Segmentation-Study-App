@@ -1,0 +1,28 @@
+{
+  "title": "Module 3 - Stack Segment and Subroutines",
+  "aspect": "16:9",
+  "resolution": "720p",
+  "fps": 24,
+  "style": "emerald",
+  "voiceover": "input/voiceover.mp3",
+  "script": "input/script.txt",
+  "duration": 20.3,
+  "captions": true,
+  "captionStyle": {
+    "y": 965,
+    "size": 52,
+    "max": 4
+  },
+  "bars": "thin",
+  "fadeIn": 0.35,
+  "fadeOut": 0.5,
+  "music": {
+    "enabled": true,
+    "gainDb": -19
+  },
+  "sfx": {
+    "enabled": true,
+    "gainDb": -6
+  },
+  "loudness": -14
+}

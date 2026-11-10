@@ -1,0 +1,305 @@
+{
+  "source": "edge-tts",
+  "words": [
+    {
+      "word": "The",
+      "start": 0.091,
+      "end": 0.193
+    },
+    {
+      "word": "moment",
+      "start": 0.204,
+      "end": 0.47
+    },
+    {
+      "word": "you",
+      "start": 0.48,
+      "end": 0.582
+    },
+    {
+      "word": "launch",
+      "start": 0.593,
+      "end": 0.808
+    },
+    {
+      "word": "an",
+      "start": 0.818,
+      "end": 0.92
+    },
+    {
+      "word": "executable",
+      "start": 0.931,
+      "end": 1.464
+    },
+    {
+      "word": "application,",
+      "start": 1.474,
+      "end": 2.017
+    },
+    {
+      "word": "it",
+      "start": 2.263,
+      "end": 2.343
+    },
+    {
+      "word": "becomes",
+      "start": 2.345,
+      "end": 2.642
+    },
+    {
+      "word": "an",
+      "start": 2.652,
+      "end": 2.744
+    },
+    {
+      "word": "active",
+      "start": 2.755,
+      "end": 3.032
+    },
+    {
+      "word": "process",
+      "start": 3.042,
+      "end": 3.483
+    },
+    {
+      "word": "in",
+      "start": 3.493,
+      "end": 3.616
+    },
+    {
+      "word": "main",
+      "start": 3.626,
+      "end": 3.831
+    },
+    {
+      "word": "memory.",
+      "start": 3.841,
+      "end": 4.23
+    },
+    {
+      "word": "To",
+      "start": 4.928,
+      "end": 5.061
+    },
+    {
+      "word": "run,",
+      "start": 5.072,
+      "end": 5.328
+    },
+    {
+      "word": "the",
+      "start": 5.502,
+      "end": 5.604
+    },
+    {
+      "word": "operating",
+      "start": 5.615,
+      "end": 6.056
+    },
+    {
+      "word": "system",
+      "start": 6.066,
+      "end": 6.425
+    },
+    {
+      "word": "sets",
+      "start": 6.434,
+      "end": 6.659
+    },
+    {
+      "word": "aside",
+      "start": 6.67,
+      "end": 7.008
+    },
+    {
+      "word": "variable-sized",
+      "start": 7.018,
+      "end": 7.735
+    },
+    {
+      "word": "memory",
+      "start": 7.746,
+      "end": 8.043
+    },
+    {
+      "word": "segments",
+      "start": 8.053,
+      "end": 8.453
+    },
+    {
+      "word": "for",
+      "start": 8.463,
+      "end": 8.637
+    },
+    {
+      "word": "it,",
+      "start": 8.648,
+      "end": 8.761
+    },
+    {
+      "word": "called",
+      "start": 8.945,
+      "end": 9.181
+    },
+    {
+      "word": "memory",
+      "start": 9.191,
+      "end": 9.488
+    },
+    {
+      "word": "segmentation.",
+      "start": 9.498,
+      "end": 10.225
+    },
+    {
+      "word": "This",
+      "start": 10.932,
+      "end": 11.116
+    },
+    {
+      "word": "space",
+      "start": 11.127,
+      "end": 11.434
+    },
+    {
+      "word": "is",
+      "start": 11.445,
+      "end": 11.537
+    },
+    {
+      "word": "divided",
+      "start": 11.547,
+      "end": 11.936
+    },
+    {
+      "word": "into",
+      "start": 11.947,
+      "end": 12.111
+    },
+    {
+      "word": "Stack,",
+      "start": 12.121,
+      "end": 12.5
+    },
+    {
+      "word": "Free",
+      "start": 12.705,
+      "end": 12.889
+    },
+    {
+      "word": "Memory,",
+      "start": 12.9,
+      "end": 13.269
+    },
+    {
+      "word": "Data,",
+      "start": 13.473,
+      "end": 13.77
+    },
+    {
+      "word": "and",
+      "start": 13.986,
+      "end": 14.119
+    },
+    {
+      "word": "Code",
+      "start": 14.129,
+      "end": 14.385
+    },
+    {
+      "word": "segments.",
+      "start": 14.396,
+      "end": 14.929
+    },
+    {
+      "word": "Even",
+      "start": 15.635,
+      "end": 15.881
+    },
+    {
+      "word": "better?",
+      "start": 15.891,
+      "end": 16.219
+    },
+    {
+      "word": "They",
+      "start": 16.926,
+      "end": 17.059
+    },
+    {
+      "word": "don't",
+      "start": 17.07,
+      "end": 17.244
+    },
+    {
+      "word": "need",
+      "start": 17.254,
+      "end": 17.387
+    },
+    {
+      "word": "to",
+      "start": 17.398,
+      "end": 17.478
+    },
+    {
+      "word": "sit",
+      "start": 17.48,
+      "end": 17.705
+    },
+    {
+      "word": "next",
+      "start": 17.715,
+      "end": 17.94
+    },
+    {
+      "word": "to",
+      "start": 17.951,
+      "end": 18.031
+    },
+    {
+      "word": "each",
+      "start": 18.033,
+      "end": 18.156
+    },
+    {
+      "word": "other,",
+      "start": 18.166,
+      "end": 18.402
+    },
+    {
+      "word": "because",
+      "start": 18.596,
+      "end": 18.852
+    },
+    {
+      "word": "the",
+      "start": 18.863,
+      "end": 18.965
+    },
+    {
+      "word": "OS",
+      "start": 18.975,
+      "end": 19.252
+    },
+    {
+      "word": "tracks",
+      "start": 19.262,
+      "end": 19.6
+    },
+    {
+      "word": "every",
+      "start": 19.611,
+      "end": 19.795
+    },
+    {
+      "word": "part",
+      "start": 19.805,
+      "end": 20.041
+    },
+    {
+      "word": "automatically.",
+      "start": 20.051,
+      "end": 20.676
+    }
+  ]
+}

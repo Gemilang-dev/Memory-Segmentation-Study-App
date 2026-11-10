@@ -1,0 +1,5 @@
+[00.09 -> 04.72] Inside a process's memory segment, how does your computer separate instructions from changing values?
+[05.45 -> 07.37] Meet the Code Segment and the Data Segment.
+[08.10 -> 12.22] At the bottom sits the Code Segment, where all executable program instructions reside.
+[12.96 -> 17.96] Right above it lives the Data Segment, a memory space allocated for all the variables the program will use.
+[18.69 -> 21.45] One stores what to do; the other stores what to remember.

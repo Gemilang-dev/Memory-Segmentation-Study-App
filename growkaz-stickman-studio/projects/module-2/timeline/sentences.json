@@ -1,0 +1,32 @@
+[
+  {
+    "i": 0,
+    "start": 0.092,
+    "end": 4.722,
+    "text": "Inside a process's memory segment, how does your computer separate instructions from changing values?"
+  },
+  {
+    "i": 1,
+    "start": 5.445,
+    "end": 7.373,
+    "text": "Meet the Code Segment and the Data Segment."
+  },
+  {
+    "i": 2,
+    "start": 8.104,
+    "end": 12.224,
+    "text": "At the bottom sits the Code Segment, where all executable program instructions reside."
+  },
+  {
+    "i": 3,
+    "start": 12.956,
+    "end": 17.956,
+    "text": "Right above it lives the Data Segment, a memory space allocated for all the variables the program will use."
+  },
+  {
+    "i": 4,
+    "start": 18.686,
+    "end": 21.452,
+    "text": "One stores what to do; the other stores what to remember."
+  }
+]

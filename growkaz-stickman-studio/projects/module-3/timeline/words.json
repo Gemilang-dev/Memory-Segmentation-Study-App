@@ -1,0 +1,335 @@
+{
+  "source": "edge-tts",
+  "words": [
+    {
+      "word": "What",
+      "start": 0.092,
+      "end": 0.269
+    },
+    {
+      "word": "happens",
+      "start": 0.279,
+      "end": 0.644
+    },
+    {
+      "word": "when",
+      "start": 0.654,
+      "end": 0.748
+    },
+    {
+      "word": "a",
+      "start": 0.758,
+      "end": 0.838
+    },
+    {
+      "word": "running",
+      "start": 0.8,
+      "end": 1.071
+    },
+    {
+      "word": "instruction",
+      "start": 1.081,
+      "end": 1.56
+    },
+    {
+      "word": "is",
+      "start": 1.571,
+      "end": 1.686
+    },
+    {
+      "word": "suddenly",
+      "start": 1.696,
+      "end": 2.05
+    },
+    {
+      "word": "interrupted",
+      "start": 2.06,
+      "end": 2.529
+    },
+    {
+      "word": "by",
+      "start": 2.54,
+      "end": 2.665
+    },
+    {
+      "word": "a",
+      "start": 2.675,
+      "end": 2.755
+    },
+    {
+      "word": "function",
+      "start": 2.737,
+      "end": 3.143
+    },
+    {
+      "word": "or",
+      "start": 3.154,
+      "end": 3.258
+    },
+    {
+      "word": "subroutine?",
+      "start": 3.269,
+      "end": 3.873
+    },
+    {
+      "word": "That",
+      "start": 4.583,
+      "end": 4.802
+    },
+    {
+      "word": "is",
+      "start": 4.812,
+      "end": 4.906
+    },
+    {
+      "word": "the",
+      "start": 4.917,
+      "end": 5.0
+    },
+    {
+      "word": "job",
+      "start": 5.01,
+      "end": 5.291
+    },
+    {
+      "word": "of",
+      "start": 5.302,
+      "end": 5.382
+    },
+    {
+      "word": "the",
+      "start": 5.375,
+      "end": 5.455
+    },
+    {
+      "word": "Stack",
+      "start": 5.448,
+      "end": 5.75
+    },
+    {
+      "word": "Segment.",
+      "start": 5.76,
+      "end": 6.229
+    },
+    {
+      "word": "Whenever",
+      "start": 6.948,
+      "end": 7.302
+    },
+    {
+      "word": "a",
+      "start": 7.312,
+      "end": 7.392
+    },
+    {
+      "word": "subroutine",
+      "start": 7.375,
+      "end": 7.948
+    },
+    {
+      "word": "is",
+      "start": 7.958,
+      "end": 8.062
+    },
+    {
+      "word": "called,",
+      "start": 8.073,
+      "end": 8.385
+    },
+    {
+      "word": "the",
+      "start": 8.594,
+      "end": 8.688
+    },
+    {
+      "word": "program",
+      "start": 8.698,
+      "end": 9.115
+    },
+    {
+      "word": "notes",
+      "start": 9.125,
+      "end": 9.375
+    },
+    {
+      "word": "the",
+      "start": 9.385,
+      "end": 9.465
+    },
+    {
+      "word": "exact",
+      "start": 9.448,
+      "end": 9.865
+    },
+    {
+      "word": "memory",
+      "start": 9.875,
+      "end": 10.167
+    },
+    {
+      "word": "address",
+      "start": 10.177,
+      "end": 10.479
+    },
+    {
+      "word": "where",
+      "start": 10.49,
+      "end": 10.584
+    },
+    {
+      "word": "it",
+      "start": 10.594,
+      "end": 10.674
+    },
+    {
+      "word": "left",
+      "start": 10.677,
+      "end": 10.875
+    },
+    {
+      "word": "off,",
+      "start": 10.885,
+      "end": 11.135
+    },
+    {
+      "word": "and",
+      "start": 11.396,
+      "end": 11.5
+    },
+    {
+      "word": "keeps",
+      "start": 11.51,
+      "end": 11.75
+    },
+    {
+      "word": "that",
+      "start": 11.76,
+      "end": 11.864
+    },
+    {
+      "word": "return",
+      "start": 11.875,
+      "end": 12.146
+    },
+    {
+      "word": "address",
+      "start": 12.156,
+      "end": 12.427
+    },
+    {
+      "word": "safe",
+      "start": 12.438,
+      "end": 12.698
+    },
+    {
+      "word": "inside",
+      "start": 12.708,
+      "end": 13.062
+    },
+    {
+      "word": "the",
+      "start": 13.073,
+      "end": 13.153
+    },
+    {
+      "word": "stack",
+      "start": 13.135,
+      "end": 13.489
+    },
+    {
+      "word": "while",
+      "start": 13.5,
+      "end": 13.635
+    },
+    {
+      "word": "the",
+      "start": 13.646,
+      "end": 13.726
+    },
+    {
+      "word": "subroutine",
+      "start": 13.729,
+      "end": 14.239
+    },
+    {
+      "word": "runs.",
+      "start": 14.25,
+      "end": 14.646
+    },
+    {
+      "word": "When",
+      "start": 15.365,
+      "end": 15.511
+    },
+    {
+      "word": "the",
+      "start": 15.521,
+      "end": 15.601
+    },
+    {
+      "word": "subroutine",
+      "start": 15.594,
+      "end": 16.146
+    },
+    {
+      "word": "finishes,",
+      "start": 16.156,
+      "end": 16.687
+    },
+    {
+      "word": "the",
+      "start": 16.854,
+      "end": 16.948
+    },
+    {
+      "word": "program",
+      "start": 16.958,
+      "end": 17.354
+    },
+    {
+      "word": "returns",
+      "start": 17.365,
+      "end": 17.761
+    },
+    {
+      "word": "to",
+      "start": 17.771,
+      "end": 17.854
+    },
+    {
+      "word": "the",
+      "start": 17.865,
+      "end": 17.945
+    },
+    {
+      "word": "exact",
+      "start": 17.938,
+      "end": 18.355
+    },
+    {
+      "word": "address",
+      "start": 18.365,
+      "end": 18.636
+    },
+    {
+      "word": "stored",
+      "start": 18.646,
+      "end": 18.938
+    },
+    {
+      "word": "in",
+      "start": 18.948,
+      "end": 19.028
+    },
+    {
+      "word": "the",
+      "start": 19.01,
+      "end": 19.09
+    },
+    {
+      "word": "stack.",
+      "start": 19.073,
+      "end": 19.521
+    }
+  ]
+}

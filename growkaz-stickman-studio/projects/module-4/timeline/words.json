@@ -1,0 +1,325 @@
+{
+  "source": "edge-tts",
+  "words": [
+    {
+      "word": "What",
+      "start": 0.092,
+      "end": 0.272
+    },
+    {
+      "word": "happens",
+      "start": 0.283,
+      "end": 0.643
+    },
+    {
+      "word": "when",
+      "start": 0.654,
+      "end": 0.771
+    },
+    {
+      "word": "multiple",
+      "start": 0.781,
+      "end": 1.141
+    },
+    {
+      "word": "subroutines",
+      "start": 1.152,
+      "end": 1.756
+    },
+    {
+      "word": "run",
+      "start": 1.766,
+      "end": 1.946
+    },
+    {
+      "word": "at",
+      "start": 1.957,
+      "end": 2.037
+    },
+    {
+      "word": "the",
+      "start": 2.02,
+      "end": 2.1
+    },
+    {
+      "word": "same",
+      "start": 2.095,
+      "end": 2.339
+    },
+    {
+      "word": "time?",
+      "start": 2.349,
+      "end": 2.72
+    },
+    {
+      "word": "The",
+      "start": 3.443,
+      "end": 3.549
+    },
+    {
+      "word": "more",
+      "start": 3.559,
+      "end": 3.76
+    },
+    {
+      "word": "subroutines",
+      "start": 3.771,
+      "end": 4.385
+    },
+    {
+      "word": "running,",
+      "start": 4.396,
+      "end": 4.714
+    },
+    {
+      "word": "the",
+      "start": 4.936,
+      "end": 5.016
+    },
+    {
+      "word": "more",
+      "start": 5.011,
+      "end": 5.202
+    },
+    {
+      "word": "memory",
+      "start": 5.212,
+      "end": 5.572
+    },
+    {
+      "word": "is",
+      "start": 5.583,
+      "end": 5.689
+    },
+    {
+      "word": "needed",
+      "start": 5.699,
+      "end": 5.974
+    },
+    {
+      "word": "in",
+      "start": 5.985,
+      "end": 6.065
+    },
+    {
+      "word": "the",
+      "start": 6.049,
+      "end": 6.129
+    },
+    {
+      "word": "stack",
+      "start": 6.123,
+      "end": 6.441
+    },
+    {
+      "word": "to",
+      "start": 6.451,
+      "end": 6.531
+    },
+    {
+      "word": "store",
+      "start": 6.536,
+      "end": 6.833
+    },
+    {
+      "word": "return",
+      "start": 6.843,
+      "end": 7.14
+    },
+    {
+      "word": "addresses.",
+      "start": 7.15,
+      "end": 7.722
+    },
+    {
+      "word": "When",
+      "start": 8.453,
+      "end": 8.623
+    },
+    {
+      "word": "those",
+      "start": 8.633,
+      "end": 8.813
+    },
+    {
+      "word": "subroutines",
+      "start": 8.824,
+      "end": 9.396
+    },
+    {
+      "word": "complete,",
+      "start": 9.407,
+      "end": 9.81
+    },
+    {
+      "word": "memory",
+      "start": 9.979,
+      "end": 10.339
+    },
+    {
+      "word": "is",
+      "start": 10.35,
+      "end": 10.467
+    },
+    {
+      "word": "freed",
+      "start": 10.477,
+      "end": 10.699
+    },
+    {
+      "word": "up",
+      "start": 10.71,
+      "end": 10.816
+    },
+    {
+      "word": "again,",
+      "start": 10.826,
+      "end": 11.165
+    },
+    {
+      "word": "so",
+      "start": 11.409,
+      "end": 11.536
+    },
+    {
+      "word": "the",
+      "start": 11.547,
+      "end": 11.642
+    },
+    {
+      "word": "stack",
+      "start": 11.653,
+      "end": 11.981
+    },
+    {
+      "word": "is",
+      "start": 11.992,
+      "end": 12.087
+    },
+    {
+      "word": "continually",
+      "start": 12.097,
+      "end": 12.595
+    },
+    {
+      "word": "getting",
+      "start": 12.606,
+      "end": 12.828
+    },
+    {
+      "word": "bigger",
+      "start": 12.839,
+      "end": 13.136
+    },
+    {
+      "word": "and",
+      "start": 13.146,
+      "end": 13.231
+    },
+    {
+      "word": "smaller.",
+      "start": 13.242,
+      "end": 13.729
+    },
+    {
+      "word": "That",
+      "start": 14.46,
+      "end": 14.682
+    },
+    {
+      "word": "is",
+      "start": 14.693,
+      "end": 14.788
+    },
+    {
+      "word": "why",
+      "start": 14.799,
+      "end": 14.99
+    },
+    {
+      "word": "Free",
+      "start": 15.0,
+      "end": 15.244
+    },
+    {
+      "word": "Memory",
+      "start": 15.254,
+      "end": 15.614
+    },
+    {
+      "word": "is",
+      "start": 15.625,
+      "end": 15.752
+    },
+    {
+      "word": "allocated",
+      "start": 15.763,
+      "end": 16.261
+    },
+    {
+      "word": "right",
+      "start": 16.271,
+      "end": 16.472
+    },
+    {
+      "word": "next",
+      "start": 16.483,
+      "end": 16.705
+    },
+    {
+      "word": "to",
+      "start": 16.716,
+      "end": 16.796
+    },
+    {
+      "word": "the",
+      "start": 16.78,
+      "end": 16.865
+    },
+    {
+      "word": "stack,",
+      "start": 16.875,
+      "end": 17.256
+    },
+    {
+      "word": "allowing",
+      "start": 17.5,
+      "end": 17.828
+    },
+    {
+      "word": "it",
+      "start": 17.839,
+      "end": 17.919
+    },
+    {
+      "word": "to",
+      "start": 17.924,
+      "end": 18.019
+    },
+    {
+      "word": "grow",
+      "start": 18.03,
+      "end": 18.337
+    },
+    {
+      "word": "and",
+      "start": 18.347,
+      "end": 18.442
+    },
+    {
+      "word": "shrink",
+      "start": 18.453,
+      "end": 18.781
+    },
+    {
+      "word": "as",
+      "start": 18.792,
+      "end": 18.909
+    },
+    {
+      "word": "necessary.",
+      "start": 18.919,
+      "end": 19.565
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "title": "Module 2 - Code Segment and Data Segment",
+  "duration": 22.2,
+  "shots": [
+    {
+      "id": "s001",
+      "start": 0.0,
+      "end": 7.7,
+      "line": "Inside a process's memory segment, how does your computer separate instructions from changing values? Meet the Code Segment and the Data Segment.",
+      "scene": "BigFace Alex + Memory Tower",
+      "in": {
+        "type": "fade",
+        "dur": 0.4
+      },
+      "sfx": [
+        {
+          "at": 0.3,
+          "name": "whoosh",
+          "gain": -11
+        },
+        {
+          "at": 4.8,
+          "name": "ding",
+          "gain": -10
+        }
+      ],
+      "amb": {
+        "name": "roomtone",
+        "gain": -24
+      }
+    },
+    {
+      "id": "s002",
+      "start": 7.7,
+      "end": 12.6,
+      "line": "At the bottom sits the Code Segment, where all executable program instructions reside.",
+      "scene": "3D Code Segment Vault",
+      "in": {
+        "type": "zoom",
+        "dur": 0.4
+      },
+      "sfx": [
+        {
+          "at": 0.2,
+          "name": "stinger",
+          "gain": -10
+        },
+        {
+          "at": 0.8,
+          "name": "blip",
+          "gain": -12
+        }
+      ],
+      "amb": {
+        "name": "hum",
+        "gain": -24
+      }
+    },
+    {
+      "id": "s003",
+      "start": 12.6,
+      "end": 18.3,
+      "line": "Right above it lives the Data Segment, a memory space allocated for all the variables the program will use.",
+      "scene": "3D Data Segment Variables",
+      "in": {
+        "type": "cut"
+      },
+      "sfx": [
+        {
+          "at": 0.2,
+          "name": "pop",
+          "gain": -10
+        },
+        {
+          "at": 1.1,
+          "name": "counter",
+          "gain": -14
+        }
+      ],
+      "amb": {
+        "name": "hum",
+        "gain": -24
+      }
+    },
+    {
+      "id": "s004",
+      "start": 18.3,
+      "end": 22.2,
+      "line": "One stores what to do; the other stores what to remember.",
+      "scene": "Blueprint comparison Code vs Data",
+      "in": {
+        "type": "whip",
+        "dur": 0.35
+      },
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "swish",
+          "gain": -10
+        },
+        {
+          "at": 0.5,
+          "name": "ding",
+          "gain": -9
+        }
+      ]
+    }
+  ],
+  "music": [
+    {
+      "start": 0.0,
+      "end": 12.6,
+      "mood": "hopeful",
+      "intensity": 0.5
+    },
+    {
+      "start": 12.6,
+      "end": 22.2,
+      "mood": "wonder",
+      "intensity": 0.65
+    }
+  ]
+}

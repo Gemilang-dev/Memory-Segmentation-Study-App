@@ -1,0 +1,6 @@
+node_modules/
+dist/
+remotion/
+main.js
+preload.js
+package-lock.json

@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: segmentality-memory-segmentation
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: ./desktop-app/public
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html

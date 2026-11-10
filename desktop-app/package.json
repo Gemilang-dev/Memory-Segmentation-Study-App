@@ -1,0 +1,20 @@
+{
+  "name": "memory-segmentation-desktop-app",
+  "version": "1.0.0",
+  "description": "Interactive 3D Animated Video & Quiz Desktop Application for Memory Segmentation (Three.js + Remotion + GrowKaz Stickman Studio)",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "render-videos": "python ../render_all_videos.py",
+    "generate-tts": "python ../generate_voiceovers.py"
+  },
+  "dependencies": {
+    "electron": "^33.2.0",
+    "three": "^0.170.0",
+    "remotion": "^4.0.230",
+    "@remotion/cli": "^4.0.230",
+    "@remotion/three": "^4.0.230",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}

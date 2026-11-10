@@ -1,0 +1,330 @@
+{
+  "source": "edge-tts",
+  "words": [
+    {
+      "word": "Inside",
+      "start": 0.092,
+      "end": 0.505
+    },
+    {
+      "word": "a",
+      "start": 0.516,
+      "end": 0.596
+    },
+    {
+      "word": "process's",
+      "start": 0.569,
+      "end": 1.109
+    },
+    {
+      "word": "memory",
+      "start": 1.12,
+      "end": 1.427
+    },
+    {
+      "word": "segment,",
+      "start": 1.438,
+      "end": 1.851
+    },
+    {
+      "word": "how",
+      "start": 2.105,
+      "end": 2.2
+    },
+    {
+      "word": "does",
+      "start": 2.211,
+      "end": 2.338
+    },
+    {
+      "word": "your",
+      "start": 2.349,
+      "end": 2.444
+    },
+    {
+      "word": "computer",
+      "start": 2.455,
+      "end": 2.805
+    },
+    {
+      "word": "separate",
+      "start": 2.815,
+      "end": 3.196
+    },
+    {
+      "word": "instructions",
+      "start": 3.207,
+      "end": 3.694
+    },
+    {
+      "word": "from",
+      "start": 3.705,
+      "end": 3.832
+    },
+    {
+      "word": "changing",
+      "start": 3.842,
+      "end": 4.192
+    },
+    {
+      "word": "values?",
+      "start": 4.203,
+      "end": 4.722
+    },
+    {
+      "word": "Meet",
+      "start": 5.445,
+      "end": 5.657
+    },
+    {
+      "word": "the",
+      "start": 5.667,
+      "end": 5.752
+    },
+    {
+      "word": "Code",
+      "start": 5.763,
+      "end": 6.028
+    },
+    {
+      "word": "Segment",
+      "start": 6.038,
+      "end": 6.462
+    },
+    {
+      "word": "and",
+      "start": 6.472,
+      "end": 6.552
+    },
+    {
+      "word": "the",
+      "start": 6.557,
+      "end": 6.642
+    },
+    {
+      "word": "Data",
+      "start": 6.653,
+      "end": 6.886
+    },
+    {
+      "word": "Segment.",
+      "start": 6.896,
+      "end": 7.373
+    },
+    {
+      "word": "At",
+      "start": 8.104,
+      "end": 8.252
+    },
+    {
+      "word": "the",
+      "start": 8.263,
+      "end": 8.348
+    },
+    {
+      "word": "bottom",
+      "start": 8.358,
+      "end": 8.676
+    },
+    {
+      "word": "sits",
+      "start": 8.686,
+      "end": 8.93
+    },
+    {
+      "word": "the",
+      "start": 8.941,
+      "end": 9.036
+    },
+    {
+      "word": "Code",
+      "start": 9.047,
+      "end": 9.312
+    },
+    {
+      "word": "Segment,",
+      "start": 9.322,
+      "end": 9.735
+    },
+    {
+      "word": "where",
+      "start": 9.905,
+      "end": 10.085
+    },
+    {
+      "word": "all",
+      "start": 10.095,
+      "end": 10.275
+    },
+    {
+      "word": "executable",
+      "start": 10.286,
+      "end": 10.805
+    },
+    {
+      "word": "program",
+      "start": 10.816,
+      "end": 11.208
+    },
+    {
+      "word": "instructions",
+      "start": 11.218,
+      "end": 11.726
+    },
+    {
+      "word": "reside.",
+      "start": 11.737,
+      "end": 12.224
+    },
+    {
+      "word": "Right",
+      "start": 12.956,
+      "end": 13.2
+    },
+    {
+      "word": "above",
+      "start": 13.21,
+      "end": 13.454
+    },
+    {
+      "word": "it",
+      "start": 13.464,
+      "end": 13.57
+    },
+    {
+      "word": "lives",
+      "start": 13.581,
+      "end": 13.793
+    },
+    {
+      "word": "the",
+      "start": 13.803,
+      "end": 13.898
+    },
+    {
+      "word": "Data",
+      "start": 13.909,
+      "end": 14.142
+    },
+    {
+      "word": "Segment,",
+      "start": 14.153,
+      "end": 14.556
+    },
+    {
+      "word": "a",
+      "start": 14.778,
+      "end": 14.858
+    },
+    {
+      "word": "memory",
+      "start": 14.831,
+      "end": 15.149
+    },
+    {
+      "word": "space",
+      "start": 15.159,
+      "end": 15.466
+    },
+    {
+      "word": "allocated",
+      "start": 15.477,
+      "end": 15.985
+    },
+    {
+      "word": "for",
+      "start": 15.996,
+      "end": 16.187
+    },
+    {
+      "word": "all",
+      "start": 16.197,
+      "end": 16.324
+    },
+    {
+      "word": "the",
+      "start": 16.335,
+      "end": 16.415
+    },
+    {
+      "word": "variables",
+      "start": 16.419,
+      "end": 16.917
+    },
+    {
+      "word": "the",
+      "start": 16.928,
+      "end": 17.013
+    },
+    {
+      "word": "program",
+      "start": 17.023,
+      "end": 17.415
+    },
+    {
+      "word": "will",
+      "start": 17.426,
+      "end": 17.543
+    },
+    {
+      "word": "use.",
+      "start": 17.553,
+      "end": 17.956
+    },
+    {
+      "word": "One",
+      "start": 18.686,
+      "end": 18.951
+    },
+    {
+      "word": "stores",
+      "start": 18.962,
+      "end": 19.301
+    },
+    {
+      "word": "what",
+      "start": 19.311,
+      "end": 19.438
+    },
+    {
+      "word": "to",
+      "start": 19.449,
+      "end": 19.544
+    },
+    {
+      "word": "do;",
+      "start": 19.555,
+      "end": 19.82
+    },
+    {
+      "word": "the",
+      "start": 20.074,
+      "end": 20.169
+    },
+    {
+      "word": "other",
+      "start": 20.18,
+      "end": 20.392
+    },
+    {
+      "word": "stores",
+      "start": 20.403,
+      "end": 20.742
+    },
+    {
+      "word": "what",
+      "start": 20.752,
+      "end": 20.879
+    },
+    {
+      "word": "to",
+      "start": 20.89,
+      "end": 20.985
+    },
+    {
+      "word": "remember.",
+      "start": 20.996,
+      "end": 21.452
+    }
+  ]
+}

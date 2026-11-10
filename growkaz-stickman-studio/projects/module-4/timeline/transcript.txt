@@ -1,0 +1,4 @@
+[00.09 -> 02.72] What happens when multiple subroutines run at the same time?
+[03.44 -> 07.72] The more subroutines running, the more memory is needed in the stack to store return addresses.
+[08.45 -> 13.73] When those subroutines complete, memory is freed up again, so the stack is continually getting bigger and smaller.
+[14.46 -> 19.57] That is why Free Memory is allocated right next to the stack, allowing it to grow and shrink as necessary.

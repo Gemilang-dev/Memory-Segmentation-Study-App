@@ -1,0 +1,1 @@
+The moment you launch an executable application, it becomes an active process in main memory. To run, the operating system sets aside variable-sized memory segments for it, called memory segmentation. This space is divided into Stack, Free Memory, Data, and Code segments. Even better? They don't need to sit next to each other, because the OS tracks every part automatically.

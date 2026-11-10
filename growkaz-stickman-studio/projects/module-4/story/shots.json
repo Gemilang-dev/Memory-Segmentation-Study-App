@@ -1,0 +1,125 @@
+{
+  "title": "Module 4 - Dynamic Stack Growth and Free Memory",
+  "duration": 20.3,
+  "shots": [
+    {
+      "id": "s001",
+      "start": 0.0,
+      "end": 3.1,
+      "line": "What happens when multiple subroutines run at the same time?",
+      "scene": "3D Nested Subroutines Stacking",
+      "in": {
+        "type": "fade",
+        "dur": 0.35
+      },
+      "sfx": [
+        {
+          "at": 0.2,
+          "name": "pop",
+          "gain": -10
+        },
+        {
+          "at": 0.7,
+          "name": "pop",
+          "gain": -10,
+          "pitch": 1.15
+        },
+        {
+          "at": 1.2,
+          "name": "pop",
+          "gain": -10,
+          "pitch": 1.3
+        }
+      ],
+      "amb": {
+        "name": "hum",
+        "gain": -24
+      }
+    },
+    {
+      "id": "s002",
+      "start": 3.1,
+      "end": 8.1,
+      "line": "The more subroutines running, the more memory is needed in the stack to store return addresses.",
+      "scene": "Blueprint Stack Growth DataCard",
+      "in": {
+        "type": "whip",
+        "dur": 0.35
+      },
+      "sfx": [
+        {
+          "at": 0.3,
+          "name": "counter",
+          "gain": -12
+        }
+      ]
+    },
+    {
+      "id": "s003",
+      "start": 8.1,
+      "end": 14.1,
+      "line": "When those subroutines complete, memory is freed up again, so the stack is continually getting bigger and smaller.",
+      "scene": "2.5D Oscillating Stack Growth & Shrinkage",
+      "in": {
+        "type": "cut"
+      },
+      "sfx": [
+        {
+          "at": 0.3,
+          "name": "whoosh",
+          "gain": -10
+        },
+        {
+          "at": 2.5,
+          "name": "swish",
+          "gain": -10
+        }
+      ],
+      "amb": {
+        "name": "roomtone",
+        "gain": -24
+      }
+    },
+    {
+      "id": "s004",
+      "start": 14.1,
+      "end": 20.3,
+      "line": "That is why Free Memory is allocated right next to the stack, allowing it to grow and shrink as necessary.",
+      "scene": "3D Full Memory Segmentation Tower Finale",
+      "in": {
+        "type": "flash",
+        "dur": 0.35
+      },
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "stinger",
+          "gain": -8
+        },
+        {
+          "at": 1.0,
+          "name": "shimmer",
+          "gain": -9
+        }
+      ],
+      "amb": {
+        "name": "hum",
+        "gain": -24
+      }
+    }
+  ],
+  "music": [
+    {
+      "start": 0.0,
+      "end": 8.1,
+      "mood": "action",
+      "intensity": 0.55
+    },
+    {
+      "start": 8.1,
+      "end": 20.3,
+      "mood": "wonder",
+      "intensity": 0.75
+    }
+  ]
+}

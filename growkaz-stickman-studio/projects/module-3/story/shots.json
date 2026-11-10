@@ -1,0 +1,118 @@
+{
+  "title": "Module 3 - Stack Segment and Subroutines",
+  "duration": 20.3,
+  "shots": [
+    {
+      "id": "s001",
+      "start": 0.0,
+      "end": 4.2,
+      "line": "What happens when a running instruction is suddenly interrupted by a function or subroutine?",
+      "scene": "Thread Runner jumps to subroutine",
+      "in": {
+        "type": "fade",
+        "dur": 0.35
+      },
+      "sfx": [
+        {
+          "at": 0.2,
+          "name": "footstep",
+          "gain": -11
+        },
+        {
+          "at": 1.5,
+          "name": "whoosh",
+          "gain": -8
+        }
+      ],
+      "amb": {
+        "name": "roomtone",
+        "gain": -24
+      }
+    },
+    {
+      "id": "s002",
+      "start": 4.2,
+      "end": 6.6,
+      "line": "That is the job of the Stack Segment.",
+      "scene": "Prof close-up + Stack Segment highlight",
+      "in": {
+        "type": "cut"
+      },
+      "sfx": [
+        {
+          "at": 0.15,
+          "name": "ding",
+          "gain": -9
+        }
+      ]
+    },
+    {
+      "id": "s003",
+      "start": 6.6,
+      "end": 15.0,
+      "line": "Whenever a subroutine is called, the program notes the exact memory address where it left off, and keeps that return address safe inside the stack while the subroutine runs.",
+      "scene": "3D Stack Push Return Address",
+      "in": {
+        "type": "zoom",
+        "dur": 0.4
+      },
+      "sfx": [
+        {
+          "at": 0.6,
+          "name": "swish",
+          "gain": -9
+        },
+        {
+          "at": 1.8,
+          "name": "hit",
+          "gain": -10
+        }
+      ],
+      "amb": {
+        "name": "hum",
+        "gain": -24
+      }
+    },
+    {
+      "id": "s004",
+      "start": 15.0,
+      "end": 20.3,
+      "line": "When the subroutine finishes, the program returns to the exact address stored in the stack.",
+      "scene": "3D Stack Pop & Return to Main Code",
+      "in": {
+        "type": "flash",
+        "dur": 0.35
+      },
+      "sfx": [
+        {
+          "at": 0.3,
+          "name": "powerup",
+          "gain": -9
+        },
+        {
+          "at": 1.2,
+          "name": "shimmer",
+          "gain": -10
+        }
+      ],
+      "amb": {
+        "name": "hum",
+        "gain": -24
+      }
+    }
+  ],
+  "music": [
+    {
+      "start": 0.0,
+      "end": 6.6,
+      "mood": "tension",
+      "intensity": 0.55
+    },
+    {
+      "start": 6.6,
+      "end": 20.3,
+      "mood": "triumph",
+      "intensity": 0.65
+    }
+  ]
+}

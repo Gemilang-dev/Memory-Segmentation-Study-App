@@ -1,0 +1,26 @@
+[
+  {
+    "i": 0,
+    "start": 0.092,
+    "end": 3.873,
+    "text": "What happens when a running instruction is suddenly interrupted by a function or subroutine?"
+  },
+  {
+    "i": 1,
+    "start": 4.583,
+    "end": 6.229,
+    "text": "That is the job of the Stack Segment."
+  },
+  {
+    "i": 2,
+    "start": 6.948,
+    "end": 14.646,
+    "text": "Whenever a subroutine is called, the program notes the exact memory address where it left off, and keeps that return address safe inside the stack while the subroutine runs."
+  },
+  {
+    "i": 3,
+    "start": 15.365,
+    "end": 19.521,
+    "text": "When the subroutine finishes, the program returns to the exact address stored in the stack."
+  }
+]

@@ -1,0 +1,10 @@
+.venv/
+**/node_modules/
+**/dist/
+**/build/
+**/.vercel/
+__pycache__/
+*.pyc
+*.exe
+.DS_Store
+Thumbs.db

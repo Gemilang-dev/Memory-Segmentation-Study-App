@@ -1,0 +1,32 @@
+[
+  {
+    "i": 0,
+    "start": 0.091,
+    "end": 4.23,
+    "text": "The moment you launch an executable application, it becomes an active process in main memory."
+  },
+  {
+    "i": 1,
+    "start": 4.928,
+    "end": 10.225,
+    "text": "To run, the operating system sets aside variable-sized memory segments for it, called memory segmentation."
+  },
+  {
+    "i": 2,
+    "start": 10.932,
+    "end": 14.929,
+    "text": "This space is divided into Stack, Free Memory, Data, and Code segments."
+  },
+  {
+    "i": 3,
+    "start": 15.635,
+    "end": 16.219,
+    "text": "Even better?"
+  },
+  {
+    "i": 4,
+    "start": 16.926,
+    "end": 20.676,
+    "text": "They don't need to sit next to each other, because the OS tracks every part automatically."
+  }
+]

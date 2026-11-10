@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SegMentality — 3D Memory Segmentation Learning Lab</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "./vendor/three.module.js"
+      }
+    }
+  </script>
+</head>
+<body>
+  <div class="app-shell">
+    <!-- Top Header -->
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-logo">SM</div>
+        <div>
+          <div class="brand-title">SegMentality <span class="badge-pill">3D STICKMAN + THREE.JS + REMOTION</span></div>
+          <div class="brand-sub">Interactive Desktop Course · Topic 2: Memory Segmentation</div>
+        </div>
+      </div>
+
+      <!-- Flow Stepper: Video 1 -> Quiz 1 -> Video 2 -> Quiz 2 -> Video 3 -> Quiz 3 -> Video 4 -> Quiz 4 -->
+      <div class="flow-stepper" id="flowStepper"></div>
+
+      <div class="topbar-actions">
+        <div class="score-pill">
+          <span class="score-label">SCORE</span>
+          <span class="score-val" id="scoreDisplay">0 / 130 XP</span>
+        </div>
+        <button class="btn btn-outline" id="openStudioBtn" title="View ScriptForge Scripts & Import ElevenLabs Voiceovers">
+          🎙️ ScriptForge &amp; ElevenLabs
+        </button>
+      </div>
+    </header>
+
+    <!-- Main Workspace Grid -->
+    <main class="main-grid">
+      <!-- Left / Center Stage: Video Player OR Interactive Quiz -->
+      <section class="stage-panel" id="stagePanel">
+        <!-- VIDEO STAGE -->
+        <div id="videoView" class="stage-view">
+          <div class="stage-header">
+            <div>
+              <span class="step-tag" id="videoStepTag">MODULE 1 · WATCH 20s 3D ANIMATED VIDEO</span>
+              <h1 id="videoTitle">1. From Executable Application to Process &amp; Memory Segmentation</h1>
+            </div>
+            <div class="timer-pill" id="videoTimerPill">⏱️ ~20s Animated Video</div>
+          </div>
+
+          <div class="video-container">
+            <video id="lessonVideo" controls preload="auto" playsinline></video>
+            <div class="video-overlay-badge" id="videoStatusBadge">▶ Watch the 20s video to unlock the quiz</div>
+          </div>
+
+          <!-- Synchronized Remotion-Style Live Caption & Script Bar -->
+          <div class="remotion-caption-bar">
+            <div class="caption-tag">LIVE REMOTION CAPTION TRACK</div>
+            <div class="caption-text" id="liveCaptionText">Press Play to start the 20-second 3D animated lesson...</div>
+          </div>
+
+          <!-- Key Concept Cards for Current Video -->
+          <div class="concept-strip" id="conceptStrip"></div>
+
+          <div class="stage-footer">
+            <div class="watch-progress-wrap">
+              <div class="watch-progress-bar"><div class="watch-progress-fill" id="watchProgressFill"></div></div>
+              <span id="watchProgressLabel">Watch progress: 0%</span>
+            </div>
+            <div class="footer-btns">
+              <button class="btn btn-secondary" id="replayVideoBtn">↺ Replay 20s Video</button>
+              <button class="btn btn-primary" id="startQuizBtn">Proceed to Module Quiz ➔</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- QUIZ STAGE -->
+        <div id="quizView" class="stage-view hidden">
+          <div class="stage-header">
+            <div>
+              <span class="step-tag step-tag-gold" id="quizStepTag">MODULE 1 · KNOWLEDGE CHECK</span>
+              <h1 id="quizTitle">Module 1 Quiz: Process &amp; Memory Segmentation</h1>
+            </div>
+            <button class="btn btn-secondary btn-sm" id="backToVideoBtn">🎬 Rewatch 20s Video</button>
+          </div>
+
+          <div id="quizQuestionsContainer" class="quiz-questions-list"></div>
+
+          <!-- Interactive Diagram Builder (Shown in Module 4) -->
+          <div id="diagramChallengeBox" class="diagram-challenge-card hidden">
+            <div class="diagram-challenge-header">
+              <span class="step-tag step-tag-gold">FINAL DIAGRAM CHALLENGE (+10 XP)</span>
+              <h3>Build the "Typical Memory Segment of a Process" Diagram</h3>
+              <p>Click the segments in the bank below in order from <strong>TOP (Slot 1)</strong> to <strong>BOTTOM (Slot 4)</strong> to match the textbook diagram.</p>
+            </div>
+            <div class="diagram-builder-grid">
+              <div class="diagram-slots" id="diagramSlots"></div>
+              <div class="diagram-bank-wrap">
+                <div class="bank-label">Available Memory Sections (Click to place):</div>
+                <div class="diagram-bank" id="diagramBank"></div>
+                <div class="diagram-actions">
+                  <button class="btn btn-secondary btn-sm" id="resetDiagramBtn">↺ Reset Diagram</button>
+                  <button class="btn btn-primary btn-sm" id="verifyDiagramBtn">✓ Check Diagram Order</button>
+                </div>
+                <div id="diagramFeedback" class="quiz-feedback hidden"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="stage-footer">
+            <div id="quizCompletionStatus" class="quiz-status-text">Answer all questions correctly to unlock the next 20s video!</div>
+            <button class="btn btn-primary" id="nextModuleBtn" disabled>Unlock Next 20s Video ➔</button>
+          </div>
+        </div>
+
+        <!-- FINAL CERTIFICATE STAGE -->
+        <div id="certificateView" class="stage-view hidden">
+          <div class="certificate-card">
+            <div class="cert-badge">🏆 COURSE COMPLETED · 100% MASTERY</div>
+            <h1>Memory Segmentation Mastered!</h1>
+            <p class="cert-lead">You completed all 4 × 20-second 3D animated video lessons and answered every question covering Topic 2: Memory Segmentation.</p>
+            <div class="cert-stats" id="certStats"></div>
+            <div class="cert-summary-grid">
+              <div class="cert-summary-item" style="border-left: 4px solid #9b87d4">
+                <strong>STACK SEGMENT</strong>
+                <span>Stores return addresses when instructions are interrupted by subroutines; grows and shrinks dynamically.</span>
+              </div>
+              <div class="cert-summary-item" style="border-left: 4px solid #d9ece8">
+                <strong>FREE MEMORY</strong>
+                <span>Allocated breathing room right next to the stack so the stack can grow and shrink as necessary.</span>
+              </div>
+              <div class="cert-summary-item" style="border-left: 4px solid #7bc98f">
+                <strong>DATA SEGMENT</strong>
+                <span>Memory space allocated for all the variables that the program will use.</span>
+              </div>
+              <div class="cert-summary-item" style="border-left: 4px solid #e5989b">
+                <strong>CODE SEGMENT</strong>
+                <span>Where the executable program instructions for the process reside.</span>
+              </div>
+            </div>
+            <div class="cert-actions">
+              <button class="btn btn-primary" id="restartCourseBtn">↺ Restart Interactive Course</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Right Sidebar: Interactive Three.js 3D Memory Tower Simulator & Reference -->
+      <aside class="inspector-panel">
+        <div class="inspector-header">
+          <div>
+            <span class="inspector-tag">INTERACTIVE THREE.JS 3D SIMULATOR</span>
+            <h3>3D Process Memory Segment</h3>
+          </div>
+          <span class="live-dot">3D LIVE</span>
+        </div>
+
+        <div class="three-canvas-wrap" id="threeInspectorContainer">
+          <canvas id="inspectorCanvas"></canvas>
+          <div class="three-overlay-hint">Drag to rotate · Use controls below to simulate Stack subroutines</div>
+        </div>
+
+        <div class="sim-controls">
+          <div class="sim-btns">
+            <button class="btn btn-sim" id="simPushBtn">+ Call Subroutine (Push Stack)</button>
+            <button class="btn btn-sim" id="simPopBtn">− Complete Subroutine (Pop)</button>
+          </div>
+          <div class="sim-readout" id="simReadout">Active Subroutines in Stack: <strong>1</strong> · Free Memory: <strong>Available</strong></div>
+        </div>
+
+        <!-- Textbook Diagram Reference Card -->
+        <div class="diagram-ref-card">
+          <div class="ref-title">Typical Memory Segment of a Process</div>
+          <div class="ref-tower" id="refTowerList">
+            <div class="ref-seg seg-stack" data-seg="stack">
+              <div class="seg-name">STACK SEGMENT</div>
+              <div class="seg-desc">Stores return addresses for functions &amp; subroutines</div>
+            </div>
+            <div class="ref-seg seg-free" data-seg="free">
+              <div class="seg-name">FREE MEMORY</div>
+              <div class="seg-desc">Allocated space for stack to grow &amp; shrink</div>
+            </div>
+            <div class="ref-seg seg-data" data-seg="data">
+              <div class="seg-name">DATA SEGMENT</div>
+              <div class="seg-desc">Stores all variables the program will use</div>
+            </div>
+            <div class="ref-seg seg-code" data-seg="code">
+              <div class="seg-name">CODE SEGMENT</div>
+              <div class="seg-desc">Where program instructions reside</div>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </main>
+  </div>
+
+  <!-- ScriptForge & ElevenLabs Voiceover Modal -->
+  <div class="modal-backdrop hidden" id="studioModal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div>
+          <span class="step-tag">SCRIPTFORGE + ELEVENLABS VOICEOVER STUDIO</span>
+          <h2>ScriptForge Narration Scripts &amp; ElevenLabs Audio Merger</h2>
+        </div>
+        <button class="btn btn-secondary btn-sm" id="closeStudioBtn">✕ Close</button>
+      </div>
+      <div class="modal-body">
+        <p class="modal-intro">
+          All 4 videos already have neural English voiceovers pre-rendered using <strong>GrowKaz Stickman Studio + Three.js</strong>.
+          Want to use your own <strong>ElevenLabs</strong> voiceovers? Copy any script below into ElevenLabs, upload the generated <code>.mp3</code> file, and click <strong>Re-Render Videos</strong>!
+        </p>
+        <div id="studioScriptsList" class="studio-scripts-grid"></div>
+        <div class="studio-render-bar">
+          <button class="btn btn-secondary" id="openMarkdownBtn">📄 Open SCRIPTS_ELEVENLABS.md</button>
+          <button class="btn btn-primary" id="rebuildVideosBtn">⚡ Re-Render &amp; Combine All 4 Videos with ElevenLabs Audio</button>
+        </div>
+        <pre id="renderLogBox" class="render-log hidden"></pre>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
